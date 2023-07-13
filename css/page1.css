@@ -1,7 +1,8 @@
 html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-    font-family: sans-serif
+    font-family: sans-serif;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -48,8 +49,12 @@ a {
 
 a:active,
 a:hover {
-    outline: 0
+    outline: 0;
+   
+    color: #ff582b;
+    font-weight: bold;
 }
+
 
 abbr[title] {
     border-bottom: 1px dotted
@@ -2590,6 +2595,12 @@ figcaption {
     display: flex;
     position: relative
 }
+.navigation-wrap a:hover{
+    outline: 0;
+    
+    color: #ff582b;
+    font-weight: bold;
+}
 
 .navigation {
     z-index: 1000000000;
@@ -3064,7 +3075,7 @@ figcaption {
 .sec-button:hover {
     color: #000;
     background-color: rgba(255, 255, 255, 0);
-    border-color: #e42d34;
+    border-color: #ff582b;
     font-weight: 700
 }
 
@@ -3075,7 +3086,7 @@ figcaption {
 .services-chick {
     width: 48%;
     height: 280px;
-    background-color: rgb(94 100 111);
+    background-color: #ff582b;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
@@ -3524,7 +3535,8 @@ figcaption {
 }
 
 .bold {
-    font-weight: 700
+    font-weight: 700;
+    color:#ff582b;
 }
 .logo{
     color: #000;
