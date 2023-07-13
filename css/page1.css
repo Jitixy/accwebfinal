@@ -4208,8 +4208,14 @@ figcaption {
     }
 
     .col.lg-5.align-vertically {
-        align-items: center
+        width: 100%;
+       
+        padding-left: 0px;
+        padding-right: 0;
+        padding-bottom: 0px;
+        overflow: hidden
     }
+
 
     .row-2 {
         flex-wrap: wrap
@@ -4492,6 +4498,16 @@ figcaption {
     .cta-icon-image {
         width: 100%
     }
+    .col.lg-5.align-vertically {
+        width: 100%;
+       
+        padding-left: 0px;
+        padding-right: 0;
+        padding-bottom: 0px;
+        overflow: hidden
+    }
+
+
 }
 
 #w-node-c2850666-c13e-d141-bba3-d54d54f7dbe0-ce39bed2 {
