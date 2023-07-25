@@ -2,6 +2,7 @@ html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     font-family: sans-serif;
+    scroll-behavior: smooth;
     
 }
 
@@ -2424,6 +2425,7 @@ figcaption {
 
 .button-main {
     color: #fff;
+
     letter-spacing: 2px;
     text-transform: uppercase;
     background-color: #ff582b;
@@ -2560,6 +2562,12 @@ figcaption {
 
 .logo-link {
     z-index: 1
+}
+.logoimage{
+width: 70px;
+position: absolute;
+right: 104%;
+top: -15%;
 }
 
 .logo-link:hover {
@@ -2722,7 +2730,7 @@ figcaption {
     height: 400px;
     color: #fff;
     background-color: rgba(31, 46, 93, 0);
-    background-image: linear-gradient(rgba(31, 46, 93, .75), rgba(31, 46, 93, .75)), url(../images/5fd2fb7f6121203e60faf395_pedro-lastra-Nyvq2juw4_o-unsplash.jpg);
+    background-image: linear-gradient(rgba(31, 46, 93, .75), rgba(31, 46, 93, .75)), url(../images/contactus.jpg);
     background-position: 0 0, 50% 100%;
     background-size: auto, 100%
 }
@@ -3080,7 +3088,7 @@ figcaption {
 .services-chick {
     width: 48%;
     height: 280px;
-    background-color: #ff582b;
+    background-color: gray;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
@@ -3089,9 +3097,15 @@ figcaption {
     display: flex;
     overflow: hidden
 }
+.services-chick:hover{
+  background-color: #ff582b;
+}
 
 .services-chick.lb {
-    background-color: #000
+    background-color: #000;
+}
+.services-chick.lb:hover {
+    background-color: #ff582b;
 }
 
 .div-block {
@@ -3570,7 +3584,7 @@ figcaption {
 
 .link-2 {
     cursor: pointer;
-    margin-left: 11px
+    margin-left: 30%
 }
 
 @media screen and (min-width:1280px) {
